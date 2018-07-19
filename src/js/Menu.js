@@ -5,7 +5,7 @@ import {
 
 class Menu extends Component {
     render() {
-        return <div className='menu'>
+        return <div className='menu clearfix'>
 
             <ul>
                 <li>

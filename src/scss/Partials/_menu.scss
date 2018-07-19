@@ -1,4 +1,5 @@
 .menu {
+  //border: $border;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +15,7 @@
 
     li {
       padding: 1rem;
-      font-size: 2rem;
+      font-size: 1.5rem;
       .menuLink {
         color: #2F4F4F;
         link: normal;
@@ -28,7 +29,7 @@
 .active {
   background-color: $backgroundColor3;
   padding: 1.345rem 2rem 1.4rem 2rem;
-  border: $border;
+  //border: $border;
   box-shadow: $boxShadow;
 }
 
