@@ -1,0 +1,23 @@
+ul {
+  width: 100%;
+  border: 1px solid red;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  li {
+    padding: 1rem;
+    font-size: 2rem;
+    .menuLink {
+      color: #2F4F4F;
+      link: normal;
+      text-decoration: none;
+    }
+  }
+}
+
+.active {
+  background-color: #bcc1ac;
+}
+
