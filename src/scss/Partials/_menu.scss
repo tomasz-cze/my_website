@@ -1,23 +1,34 @@
-ul {
-  width: 100%;
-  border: 1px solid red;
-  height: 5rem;
+.menu {
   display: flex;
   justify-content: center;
   align-items: center;
-  list-style: none;
-  li {
-    padding: 1rem;
-    font-size: 2rem;
-    .menuLink {
-      color: #2F4F4F;
-      link: normal;
-      text-decoration: none;
+
+  ul {
+    width: 70%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+
+    li {
+      padding: 1rem;
+      font-size: 2rem;
+      .menuLink {
+        color: #2F4F4F;
+        link: normal;
+        text-decoration: none;
+        margin: 2rem;
+      }
     }
   }
 }
 
 .active {
-  background-color: #bcc1ac;
+  background-color: $backgroundColor3;
+  padding: 1.345rem 2rem 1.4rem 2rem;
+  border: $border;
+  box-shadow: $boxShadow;
 }
 

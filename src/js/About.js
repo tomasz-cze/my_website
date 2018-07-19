@@ -4,14 +4,12 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         return (
-            <div>
+            <div id='about' className='container'>
                 <h1>
-                    Hilka słów o mnie
+                    Kilka słów o mnie
                 </h1>
-                <div className='photo'>
-                </div>
                 <div className='text'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias aliquid assumenda debitis delectus, dolore ducimus enim error et ex expedita facere incidunt inventore ipsam iure, magni, maxime mollitia natus nemo nesciunt nobis odit provident quod sed suscipit tempore ullam. Ab architecto distinctio eos et hic incidunt inventore maxime minus odio placeat quis sunt suscipit, voluptate! Commodi dicta dolor, error ipsum iure iusto maiores molestias nam quisquam saepe velit veniam voluptate. Ab asperiores illo minima numquam officia quaerat voluptate. Animi earum esse nisi sequi suscipit? Accusamus consequatur consequuntur deleniti dignissimos dolor excepturi fugit incidunt iusto laboriosam, natus, necessitatibus nihil nostrum odit quae qui quos saepe sint sit velit voluptatum. Accusantium asperiores cupiditate, distinctio esse labore magni nisi nulla possimus rem suscipit! Adipisci consectetur cumque dolorem dolores, ex excepturi facilis hic incidunt itaque iure labore maxime nemo nobis omnis possimus provident quo rerum sit ut voluptatem. Maiores minima quaerat quasi! Ex?
+                    Jestem absolwentem kursu programowania JavaScript Developer: React w Coders Lab IT School. Chcę pogłębiać zdobytą wiedzę i rozwijać w praktyce umiejętności związane z technologiami front-endowymi, w szczególności z językiem JavaScript. Lubię się uczyć, tworzyć i widzieć rezultaty swoich działań. To co dla innych jest problemem dla mnie stanowi wyzwanie. Dlatego właśnie postanowiłem nauczyć się programowania i rozpocząć pracę z tym związaną. Przez ostatnie kilkanaście lat w branży handlowej nauczyłem się jak efektywnie pracować w zespole, sprawnie realizować założone cele i szybko adaptować się do nowych sytuacji. Moja sumienność w wykonywaniu powierzonych zadań i dbałość o szczegóły z pewnością pomogą mi w nowej pracy. Chcę dołączyć do organizacji, w której będę mógł cały czas się uczyć, poznam interesujących ludzi i będę intensywnie rozwijać się jako developer.
                 </div>
             </div>
         )

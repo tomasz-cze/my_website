@@ -5,11 +5,11 @@ import {
 
 class Menu extends Component {
     render() {
-        return <div>
+        return <div className='menu'>
 
             <ul>
                 <li>
-                    <NavLink to="/about" className='menuLink' activeClassName='active'>About</NavLink>
+                    <NavLink to="/about" className='menuLink' activeClassName='active'>O mnie</NavLink>
                 </li>
                 <li>
                     <NavLink to="/portfolio" className='menuLink' activeClassName='active'>Portfolio</NavLink>
