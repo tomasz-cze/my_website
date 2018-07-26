@@ -1,22 +1,20 @@
 #projects {
-  border: $border;
+  //border: $border;
   margin-top: 3rem;
   height: 40rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  //justify-content: space-around;
   align-items: center;
   box-shadow: $boxShadow;
-  //border: $border;
   .title {
     //border: $border;
-
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     h1 {
-      background-color: $backgroundColor3;
+      //background-color: $backgroundColor3;
       padding-top: 0;
       width: 30%;
       font-size: 2rem;
@@ -25,31 +23,47 @@
       box-shadow: 0px 2px 10px #888888;
     }
   }
-  .galleryImage {
-    //border: $border;
-    background-image: url("../images/project1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 30%;
-    height: 30%;
-    opacity: 0.6;
+  .galleryContent {
+    witdh: 100%;
+    margin-top: 5%;
+    .galleryPart {
+      margin-top: 4%;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      .galleryImage {
+        border: $border;
+        background-image: url("../images/project1.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 20rem;
+        height: 15rem;
+        opacity: 0.8;
+      }
+      .projShortText {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        left: 30%;
+        padding: 3%;
+        //border: $border;
+        height: 50%;
+        width: 50%;
+        font-size: 1rem;
+        color: black;
+        text-align: center;
+      }
+    }
   }
-  .projShortText {
+  .galleryButtons {
+    witdh: 100%;
+    margin-top: 5%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    left: 30%;
-    padding: 3%;
-    //border: $border;
-height: 50%;
-    width: 50%;
-    font-size: 1rem;
-    color: black;
-    text-align: center;
+    justify-content: space-evenly;
+
   }
 }
-
 
 /* The button-maker */
 @mixin arrow-button($color, $background, $shadow, $font-size, $width, $height, $direction) {
@@ -63,7 +77,7 @@ height: 50%;
 
   @if $direction == "up" {
     transform: rotate(-90deg);
-  }  @else if $direction == "down" {
+  } @else if $direction == "down" {
     transform: rotate(90deg);
   }
 
@@ -76,7 +90,7 @@ height: 50%;
 
   &::before,
   &::after {
-    background: $background;
+    background-color: white;
     border-radius: 2px;
     content: '';
     display: block;
@@ -87,37 +101,37 @@ height: 50%;
     height: $height/2;
   }
 
-
   &::before {
-    box-shadow:
-            -1px 1px 0 $shadow,
-            -2px 2px 0 $shadow,
-            -3px 3px 0 $shadow,
-            -4px 4px 0 $shadow;
+
+    box-shadow: $boxShadow;
     transform: skew(45deg);
-    @if $direction == "left" { bottom: 0; z-index: 1 }
-    @else { top: 0; }
+    @if $direction == "left" {
+      bottom: 0;
+      z-index: 1
+    } @else {
+      top: 0;
+    }
   }
 
   &::after {
-    box-shadow: 1px 1px 0 $shadow,
-    2px 2px 0 $shadow,
-    3px 3px 0 $shadow,
-    4px 4px 0 $shadow;
+    box-shadow: $boxShadow;
     transform: skew(-45deg);
-    @if $direction == "left" { top: 0;}
-    @else { bottom: 0; }
+    @if $direction == "left" {
+      top: 0;
+    } @else {
+      bottom: 0;
+    }
   }
 
   &:hover::before,
   &:hover::after {
-    background: lighten($background,15%);
+    //background: lighten($background,15%);
   }
 
   &:focus {
     &::before,
     &::after {
-      background: lighten($background,15%);
+      //background: lighten($background,15%);
     }
     outline: 0;
   }
@@ -125,6 +139,7 @@ height: 50%;
 
 /* How to include it */
 .btn-right {
+  //box-shadow: $boxShadow;
   @include arrow-button($textColor, $backgroundColor3, $backgroundColor3, 22px, 5em, 2em, right);
 
   &:hover {
@@ -133,6 +148,7 @@ height: 50%;
 }
 
 .btn-left {
+  //box-shadow: $boxShadow;
   @include arrow-button($textColor, $backgroundColor3, $backgroundColor3, 22px, 5em, 2em, left);
 
   &:hover {
@@ -140,22 +156,13 @@ height: 50%;
   }
 }
 
-.btn-up {
-  @include arrow-button(#fff, #e4135d, #c81163, 22px, 4em, 3em, up);
-}
-
-.btn-down {
-  @include arrow-button(#fff, #29c0d5, #1897c0, 22px, 6em, 4em, down);
-  margin-top: 3em;
-}
-
 @keyframes zoom {
   25% {
-    transform: scale3d(1.5,1.5,0);
+    transform: scale3d(1.5, 1.5, 0);
   }
 
   50% {
-    transform: scale3d(1,1,0);
+    transform: scale3d(1, 1, 0);
   }
 
   75% {
@@ -168,9 +175,6 @@ height: 50%;
     transform: rotate(360deg);
   }
 }
-
-
-
 
 button a {
   top: -2px; // Better alignment for font
