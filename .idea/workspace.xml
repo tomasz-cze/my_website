@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10afb7fc-7215-43aa-a21b-07fd061808fe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.89cc5a88.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/project1.5c255a1c.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.cdebba0a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.cdebba0a.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.7e60798e.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/js/main.89cc5a88.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.7e60798e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gh-pages/.cache/github.com!tomasz-cze!my_website.git" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gh-pages/.cache/github.com!tomasz-cze!my_website.git" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/Portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/Partials/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Partials/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/Partials/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Partials/_all.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/Partials/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Partials/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/Partials/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Partials/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/Partials/_portoflio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Partials/_portoflio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.fb7d811b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.fb7d811b.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.89cc5a88.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.89cc5a88.js.map" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,10 +43,12 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="js" value="2" />
+          <entry key="png" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Image" value="1" />
           <entry key="JavaScript" value="2" />
         </counts>
       </usages-collector>
@@ -135,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/Partials/_portoflio.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+            <state>
+              <caret selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -208,6 +198,24 @@
             <path>
               <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my_website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my_website" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -246,6 +254,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -276,20 +285,22 @@
       <updated>1531845874455</updated>
       <workItem from="1531845877222" duration="1223000" />
       <workItem from="1531999914020" duration="24807000" />
-      <workItem from="1532614679153" duration="2363000" />
+      <workItem from="1532614679153" duration="6174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28393000" />
+    <option name="totallyTimeSpent" value="32204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="-4" width="1621" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16833542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.32937366" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -298,7 +309,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32829374" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32829374" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -464,10 +475,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/media/project1.5c255a1c.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/Partials/_portoflio.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        <state>
+          <caret selection-end-line="1" />
         </state>
       </provider>
     </entry>
